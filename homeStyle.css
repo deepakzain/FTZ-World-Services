@@ -1,0 +1,272 @@
+body{
+    background-image: url("bg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #4A6BAE;
+    margin: 0;
+    padding: 0;
+}
+
+#serviceBar{
+    margin: auto;
+    width: 65%;
+    margin-bottom: 2%;
+}
+
+.seviceContent{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    margin-left: 68%;
+    background: rgba(0,0,0,0.5);
+}
+.seviceContent li{
+    display: inline-block;
+    border-right: 1px solid white;
+}
+.seviceContent li a{
+    padding: 0 7px;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.seviceContent li:last-of-type{
+    border-right: none;
+}
+
+#logo{
+    margin-left: 2%;
+}#logo img{
+    margin-top: -5%;
+    float: left;
+}
+#centerBox{
+    margin: auto;
+    width: 65%;
+}
+
+#navBar{
+    overflow: inherit;
+    border: 1px solid #152A45;
+    background: rgba(17, 33, 59, 0.9)
+}
+
+.navContent{
+    border: 1px solid #3D4C5F;
+    padding: 18px 0;
+    margin: 2px;
+    padding-right: 12px;
+    list-style: none;
+    text-align: right;
+}
+.navContent li{
+    display: inline-block; 
+    margin-left: -4px;
+    padding: 0 2px;
+    /* border-right: 1px solid #d2d8e2; */
+}
+.navContent li::after{
+    content: "|";
+    color: white;
+    font-size: 24px;
+}
+.navContent li:last-of-type::after{
+    content: none;
+}
+.navContent li:last-of-type{
+    border-right: none;
+}
+.navContent a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 7px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #a1bfe0;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#captionContainer{
+    background: rgba(17, 33, 59, 0.3);
+}
+#caption{
+    color: white;
+    padding-top: 3.5%;
+    padding-bottom: 1%;
+}
+h1{
+    font-size: 36px;
+    padding-bottom: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 10px;
+    font-weight: 100;
+    padding-left: 34px;
+    margin-bottom: 0;
+}
+
+.tiles{
+    width: 100%;
+    height: 121px;
+}
+
+#cardBlock{
+    padding: 3px;
+    background: rgba(17, 33, 59, 0.9);
+}
+.imageCard{
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    vertical-align: top;
+    width: 29.5%;
+    display: inline-block;
+}
+
+#image1{
+    filter: brightness(185%);
+    width: 100%;
+}
+
+.cardContent{
+    color: white;
+    line-height: 19px;
+    font-size: 14px;
+    letter-spacing: 1px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.imageCard a{
+    color: #71A3EC;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#borderBlock{
+    border: 1px solid #3D4C5F;
+    border-top: none;
+}
+#card1{
+    margin-left: 2.5%;
+    
+}
+#card2{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+#card3{
+    margin-right: 2.5%;
+}
+#para2{
+    margin-bottom: 32px;
+}
+#para5{
+    margin-bottom: 24px;
+}
+#footer{
+    background: rgba(17, 33, 59, 0.5);
+    width: 65%;
+    margin:-0.8% auto;
+}
+#footer p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 4px;
+    text-align: center;
+    color: #C8D2ED;
+}
+#footer p a{
+    border-right: 1px solid white;
+    padding-right: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #C8D2ED;
+}
+#footer p b:last-child a{
+    padding-left: 5px;
+    border: none;
+}
+
+
+@media only screen and (min-width: 1400px){
+    .seviceContent{
+        margin-left: 68.5%;
+    }
+    #para2{
+        margin-bottom: 14px;
+    }
+}
+
+/* 1440px and + */
+@media only screen and (min-width: 1440px) {
+    .seviceContent{
+        margin-left: 69.5%;
+    }
+    .cardContent{
+        line-height: 20px;
+        font-size: 14px;
+    } 
+}
+/*1600px and + */
+@media only screen and (min-width: 1600px) {
+    #logo img{
+        margin-top: -4%;
+        float: left;
+    }
+    .cardContent{
+        font-size: 14px;
+    }
+    .seviceContent{
+        margin-left: 72.5%;
+    }
+    #para5{
+        margin-bottom: 45px;
+    }
+}
+@media only screen and (min-width: 1680px){
+    .seviceContent{
+        margin-left: 74%;
+    }
+}
+
+/* 1920px and + */
+@media only screen and (min-width: 1920px) {
+    body{
+        background-size: cover;
+    }
+    #logo{
+        margin-left: 1.5%;
+    }
+    #logo img{
+        margin-top: -3.5%;
+        float: left;
+    }
+    #footer{
+        margin: -0.5% auto;
+    }
+    .cardContent{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .seviceContent{
+        margin-left: 66%;
+    }
+    .seviceContent li a{
+        font-size: 16px;
+    }
+    .imageCard a{
+        font-size: 15px;
+    }
+    .navContent a{
+        padding: 0 16px;
+        font-size: 23px;
+    }
+}
+
+.navContent a.active {
+    background-color: #496781;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+}

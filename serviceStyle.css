@@ -1,0 +1,336 @@
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #4A6BAE;
+    margin: 0;
+    padding: 0;
+}
+#serviceBar{
+    margin: auto;
+    width: 65%;
+    margin-bottom: 2%;
+}
+
+
+.seviceContent{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    margin-left: 68%;
+    background: rgba(0,0,0,0.5);
+}
+.seviceContent li{
+    display: inline-block;
+    border-right: 1px solid white;
+}
+.seviceContent li a{
+    padding: 0 7px;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.seviceContent li:last-of-type{
+    border-right: none;
+}
+#logo{
+    margin-left: 2%;
+}#logo img{
+    margin-top: -5%;
+    float: left;
+}
+#centerBox{
+    margin: auto;
+    width: 65%;
+}
+
+#navBar{
+    overflow: inherit;
+    border: 1px solid #152A45;
+    background: rgba(17, 33, 59, 0.9)
+}
+
+.navContent{
+    border: 1px solid #3D4C5F;
+    padding: 18px 0;
+    margin: 2px;
+    padding-right: 16px;
+    list-style: none;
+    text-align: right;
+}
+.navContent li{
+    display: inline-block; 
+    margin-left: -4px;
+    /* border-right: 1px solid #d2d8e2; */
+}
+.navContent li::after{
+    content: "|";
+    color: white;
+    font-size: 21px;
+}
+.navContent li:last-of-type::after{
+    content: none;
+}
+.navContent li:last-of-type{
+    border-right: none;
+}
+.navContent a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 7px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #a1bfe0;
+    font-size: 17px;
+    font-weight: 600;
+}
+.navContent li span{
+    margin: 0 1px;
+}
+#emptyContainer{
+    /* background-color: red; */
+    margin: auto;
+    padding: 3%;
+    /* width: 68%; */
+}
+#ourServicesBox{
+    background: rgba(17, 33, 59, 0.9);
+    /* background-color: white; */
+    /* margin: auto; */
+    /* new add */
+    padding: 0.5%;
+}
+
+#borderBox{
+    border: 1px solid #3D4C5F;
+    margin: 0%;
+    border-top: none;
+}
+#sideImageBox{
+    padding-left: 2%; 
+    padding-top: 2%; 
+    margin-right: 2.5%;
+    vertical-align: top;
+    display: inline-block;
+    /* background-color: yellow; */
+}
+.tileBox{
+    margin-bottom: 7%;
+}
+#serviceDetails{
+    
+    display: inline-block;
+    /* background-color: aqua; */
+    /* padding: 4%; */
+    margin-top: 2%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 60%;
+    margin-bottom: 3%;
+}
+#serviceList{
+    padding: 0;
+    border-top:1px solid #a1bfe0;
+    border-bottom: 1px solid #a1bfe0;
+}
+#serviceList ul{
+    list-style: none;
+    padding: 0;
+}
+#serviceList ul li{
+    line-height: 22px;   
+}
+#serviceList ul li a{
+    color: #a1bfe0;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#serviceDetails h1{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 200;
+    color: #c6dbf3;
+}
+#serviceDetails ul{
+    width: 94%;
+    margin-bottom: 5%;
+}
+#serviceDetails ul li{
+    line-height: 22px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#serviceDetails p{
+    width: 94%;
+    line-height: 22px;
+    font-size: 14px;
+}
+#serviceDetails p a{
+    color: #c6dbf3;
+}
+#helpBox{
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+    padding: 0;
+    padding-left: 41px;
+    padding-bottom: 21px;
+    background: rgba(17, 33, 59, 0.9);
+}
+button{
+    background-color: #135c76;
+    font-weight: bold;
+    color: #a1bfe0;
+    padding: 4px 11px;
+    font-size: 14px;
+    border-bottom: 1px solid #318598;
+    border-radius: 5px;
+    border-right: 1px solid #135c76;
+    background:linear-gradient(to top, rgba(0,0,0,0.1), #135C80);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#footer{
+    background: rgba(17, 33, 59, 0.5);
+    width: 65%;
+    margin:-0.8% auto;
+}
+#footer p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 6px;
+    text-align: center;
+    color: #C8D2ED;
+}
+#footer p a{
+    border-right: 1px solid white;
+    padding-right: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #C8D2ED;
+}
+#footer p b:last-child a{
+    padding-left: 5px;
+    border: none;
+}
+
+
+
+/* 1400 and + */
+@media only screen and (min-width: 1400px) {
+    .seviceContent{
+        margin-left: 68.5%;
+    }
+    #serviceDetails p{
+        font-size: 14px;
+        width: 91%;
+    }
+}
+/* 1440 and + */
+@media only screen and (min-width: 1440px) {
+    #logo img{
+        margin-top: -4.5%;
+    }
+    .seviceContent{
+        margin-left: 69%;
+    }
+    #serviceDetails p{
+        font-size: 14px;
+        width: 89%;
+    }
+    #serviceDetails ul li{
+        font-size: 14px;
+    }
+}
+
+/*1600px and + */
+@media only screen and (min-width: 1600px) {
+    .seviceContent{
+        margin-left: 72.5%;
+    }
+    #logo img{
+        margin-top: -4%;
+    }
+    #serviceDetails{
+        width: 64%;
+    }
+    #serviceDetails p{
+        font-size: 14px;
+        /* width: 75%; */
+   
+    }
+    #serviceDetails ul li{
+        font-size: 14px;
+    }
+
+}
+/* 1680px and + */
+@media only screen and (min-width: 1680px) {
+    .seviceContent{
+        margin-left: 74%;
+    }
+    #logo img{
+        margin-top: -3.5%;
+    }
+
+    #serviceDetails ul li{
+        font-size: 14px;
+    }
+}
+
+/* 1920px and + */
+@media only screen and (min-width: 1920px) {
+    .seviceContent{
+        margin-left: 72%;
+    }
+    #footer{
+        margin: -0.5% auto;
+    }
+    #logo img{
+        margin-top: -3.5%;
+    }
+    #serviceDetails p{
+        font-size: 14px;
+   
+    }
+    #serviceDetails ul li{
+        font-size: 14px;
+    }
+    #serviceList ul li{
+        line-height: 32px;
+        font-size: 14px;
+    }
+    .navContent a{
+        font-size: 23px;
+    }
+    .navContent a{
+        padding: 0 16px;
+    }
+    .seviceContent li a{
+        font-size: 16px;
+    }
+
+}
+
+
+/* .navContent li.active{
+    background-color: #496781;
+    padding: 3px 0;
+    border-radius: 6px;
+} */
+
+.navContent a.active {
+    background-color: #496781;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+}
+
+/* button:focus{
+    outline: none;
+    box-shadow: none;
+} */
+
